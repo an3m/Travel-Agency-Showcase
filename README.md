@@ -15,7 +15,7 @@ This Travel Agency ERP Solution is a production-ready mobile application that en
 
 The application handles the complete lifecycle of travel agency services, from customer onboarding and service booking to invoicing, payment processing, and comprehensive financial reporting. It supports multi-currency operations (SAR, YER) and implements a robust double-entry accounting system for accurate financial tracking.
 
-<img src="./assets/dashboard_demo.jpg" alt="Dashboard Screenshot" width="300" >
+<img src="./assets/dashboard_demo.jpg" alt="Dashboard Screenshot" width="250" hieght="520" >
 
 ## Key Features
 
@@ -28,9 +28,9 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Account Statements**: Detailed account statements for customers, agents, and suppliers with transaction history
 
 <div style="display: flex; gap: 10px;">
-  <img src="./assets/purchase.jpg" alt="Purchase Report" width="300">
-  <img src="./assets/sales.jpg" alt="Sales Report" width="300">
-  <img src="./assets/invoice_details.jpg" alt="Invoice Details" width="300">
+  <img src="./assets/purchase.jpg" alt="Purchase Report" width="250" hieght="520">
+  <img src="./assets/sales.jpg" alt="Sales Report" width="250" hieght="520">
+  <img src="./assets/invoice_details.jpg" alt="Invoice Details" width="250" hieght="520">
 </div>
 
 ### Service Management
@@ -45,8 +45,8 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Service Reports**: Comprehensive reporting by service type, customer, agent, or date range
 
 <div style="display: flex; gap: 10px;">
-  <img src="./assets/services.jpg" alt="Services Overview" width="300">
-  <img src="./assets/service.jpg" alt="Service Details" width="300">
+  <img src="./assets/services.jpg" alt="Services Overview" width="250" hieght="520">
+  <img src="./assets/service.jpg" alt="Service Details" width="250" hieght="520">
 </div>
 
 ### Customer & Party Management
@@ -58,9 +58,9 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Document Scanner**: ML-powered document scanning for quick customer onboarding using Google ML Kit face detection and mobile scanner
 
 <div style="display: flex; gap: 10px;">
-  <img src="./assets/customers.jpg" alt="Customers Overview" width="300">
-  <img src="./assets/suppliers.jpg" alt="Suppliers List" width="300">
-  <img src="./assets/agent_details.jpg" alt="Agent Details" width="300">
+  <img src="./assets/customers.jpg" alt="Customers Overview" width="250" hieght="520">
+  <img src="./assets/suppliers.jpg" alt="Suppliers List" width="250" hieght="520">
+  <img src="./assets/agent_details.jpg" alt="Agent Details" width="250" hieght="520">
 </div>
 
 ### Customer Onboarding Demo
@@ -84,9 +84,9 @@ Watch the customer onboarding process in action:
 - **Excel Export**: Data export capabilities for external analysis using the `excel` package
 
 <div style="display: flex; gap: 10px;">
-  <img src="./assets/reports.jpg" alt="Reports Overview" width="300">
-  <img src="./assets/report_content.jpg" alt="Report Content" width="300">
-  <img src="./assets/report_pdf.jpg" alt="Report PDF" width="300">
+  <img src="./assets/reports.jpg" alt="Reports Overview" width="250" hieght="520">
+  <img src="./assets/report_content.jpg" alt="Report Content" width="250" hieght="520">
+  <img src="./assets/report_pdf.jpg" alt="Report PDF" width="250" hieght="520">
 </div>
 
 ### Watch the reporting and analytics demo
