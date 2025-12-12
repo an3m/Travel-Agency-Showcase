@@ -67,10 +67,7 @@ The application handles the complete lifecycle of travel agency services, from c
 
 Watch the customer onboarding process in action:
 
-<video width="600" controls>
-  <source src="./assets/add_customer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="./assets/add_customer.gif" alt="Customer Onboarding Demo" width="250" hieght="520" >
 
 ### Reporting & Analytics
 
@@ -91,10 +88,7 @@ Watch the customer onboarding process in action:
 
 ### Watch the reporting and analytics demo
 
-<video width="600" controls>
-  <source src="./assets/reports.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="./assets/reports.gif" alt="Customer Onboarding Demo" width="250" hieght="520" >
 
 ### Notifications & Alerts
 
