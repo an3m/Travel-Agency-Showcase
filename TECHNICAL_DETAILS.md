@@ -192,7 +192,7 @@ The financial system implements a complete double-entry accounting model:
 **Payments Table**
 
 - Unified payment/receipt tracking
-- Multiple settlement methods: Cash, Bank Transfer, Check, Credit Card
+- Multiple settlement methods: Cash, Bank Transfer
 - Bank account linking for transfer tracking
 - Conversion rate tracking for multi-currency payments
 - Immediate vs. deferred payment flag
@@ -547,7 +547,7 @@ Database views pre-join related tables, reducing query complexity:
 - Selective state updates (BLoC's `buildWhen`)
 - Memoization of expensive calculations
 - Debounced search inputs
-
+<!-- 
 ## Testing Strategy
 
 ### Unit Testing
@@ -567,7 +567,7 @@ Database views pre-join related tables, reducing query complexity:
 
 - UI component testing
 - State management verification
-- User interaction testing
+- User interaction testing -->
 
 ## Code Generation
 
@@ -600,12 +600,6 @@ flutter pub run build_runner build --delete-conflicting-outputs
 - WorkManager for background tasks
 - Notification channels
 - File system access for documents
-
-### iOS
-
-- Background fetch for notifications
-- Document picker integration
-- Face detection with ML Kit
 
 ### Cross-Platform
 
