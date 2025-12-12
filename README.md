@@ -15,7 +15,7 @@ This Travel Agency ERP Solution is a production-ready mobile application that en
 
 The application handles the complete lifecycle of travel agency services, from customer onboarding and service booking to invoicing, payment processing, and comprehensive financial reporting. It supports multi-currency operations (SAR, YER) and implements a robust double-entry accounting system for accurate financial tracking.
 
-![Dashboard Screenshot](assets/dashboard_demo.png)
+<img src="./assets/dashboard_demo.jpg" alt="Dashboard Screenshot" width="300" >
 
 ## Key Features
 
@@ -26,9 +26,12 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Multi-Currency Support**: Native support for Saudi Riyal (SAR) and Yemeni Rial (YER) with real-time conversion tracking
 - **Payment Processing**: Comprehensive payment and receipt management with multiple settlement methods (Cash, Bank Transfer, Check, Credit Card)
 - **Account Statements**: Detailed account statements for customers, agents, and suppliers with transaction history
-- **Cash Flow Management**: Real-time cash flow tracking across multiple bank accounts and cash registers
 
-![Financial Reports](assets/reports_view.png)
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/purchase.jpg" alt="Purchase Report" width="300">
+  <img src="./assets/sales.jpg" alt="Sales Report" width="300">
+  <img src="./assets/invoice_details.jpg" alt="Invoice Details" width="300">
+</div>
 
 ### Service Management
 
@@ -41,7 +44,10 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Service Status Tracking**: Automated status transitions with audit trails
 - **Service Reports**: Comprehensive reporting by service type, customer, agent, or date range
 
-![Service Management](assets/services_demo.png)
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/services.jpg" alt="Services Overview" width="300">
+  <img src="./assets/service.jpg" alt="Service Details" width="300">
+</div>
 
 ### Customer & Party Management
 
@@ -51,7 +57,20 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Contact Integration**: Native phone number validation and contact management
 - **Document Scanner**: ML-powered document scanning for quick customer onboarding using Google ML Kit face detection and mobile scanner
 
-![Customer Management](assets/customers_demo.png)
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/customers.jpg" alt="Customers Overview" width="300">
+  <img src="./assets/suppliers.jpg" alt="Suppliers List" width="300">
+  <img src="./assets/agent_details.jpg" alt="Agent Details" width="300">
+</div>
+
+### Customer Onboarding Demo
+
+Watch the customer onboarding process in action:
+
+<video width="600" controls>
+  <source src="./assets/add_customer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Reporting & Analytics
 
@@ -64,7 +83,18 @@ The application handles the complete lifecycle of travel agency services, from c
 - **PDF Generation**: Professional PDF invoice generation and report export using the `pdf` and `printing` packages
 - **Excel Export**: Data export capabilities for external analysis using the `excel` package
 
-![Invoicing Workflow Video](assets/invoice_flow.gif)
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/reports.jpg" alt="Reports Overview" width="300">
+  <img src="./assets/report_content.jpg" alt="Report Content" width="300">
+  <img src="./assets/report_pdf.jpg" alt="Report PDF" width="300">
+</div>
+
+### Watch the reporting and analytics demo
+
+<video width="600" controls>
+  <source src="./assets/reports.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Notifications & Alerts
 
@@ -72,12 +102,6 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Service Status Updates**: Real-time notifications for service status changes
 - **Notification History**: Complete audit trail of all system notifications
 - **Background Processing**: WorkManager integration for scheduled background tasks and reminders using `workmanager` and `flutter_local_notifications`
-
-### Expense Management
-
-- **Expense Tracking**: Categorize and track business expenses
-- **Expense Types**: Flexible expense categorization system
-- **Expense Reports**: Detailed expense analytics and reporting
 
 ### System Features
 
@@ -138,10 +162,6 @@ The application handles the complete lifecycle of travel agency services, from c
 - **Google ML Kit Face Detection** (`google_mlkit_face_detection ^0.13.1`): Machine learning-powered face detection for customer photo verification
 - **Mobile Scanner** (`mobile_scanner ^7.0.1`): Barcode and QR code scanning for document processing and quick data entry
 
-### Backend & Authentication
-
-- **Supabase Flutter** (`supabase_flutter ^2.8.2`): Backend-as-a-Service integration for authentication and remote data synchronization capabilities
-
 ### Responsive Design
 
 - **Flutter ScreenUtil** (`flutter_screenutil ^5.9.3`): Responsive design utilities for adaptive layouts across different screen sizes and devices
@@ -175,33 +195,6 @@ The application handles the complete lifecycle of travel agency services, from c
 - Dart SDK 3.5.4 or higher
 - Android Studio / VS Code with Flutter extensions
 
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/travel-agency-erp.git
-cd travel-agency-erp
-```
-
-2. Install dependencies:
-
-```bash
-flutter pub get
-```
-
-3. Generate Drift database code:
-
-```bash
-flutter pub run build_runner build --delete-conflicting-outputs
-```
-
-4. Run the application:
-
-```bash
-flutter run
-```
-
 ## Documentation
 
 For detailed technical documentation, architecture decisions, and implementation details, see [TECHNICAL_DETAILS.md](./TECHNICAL_DETAILS.md).
@@ -210,18 +203,10 @@ For detailed technical documentation, architecture decisions, and implementation
 
 This ERP solution is designed for:
 
-- Travel agencies managing Umrah and Hajj services
-- Visa processing agencies
-- Travel booking offices
-- Multi-service travel companies
-- Agencies requiring offline-capable business management
-
-## Security & Privacy
-
-- Local-first data storage with no cloud dependencies for core functionality
-- Secure authentication system with Supabase integration
-- Document encryption for sensitive customer data
-- Minimal external API dependencies for core business operations
+- Travel agencies managing Umrah and Hajj services.
+- individuals who works in this field.
+- Travel booking offices.
+- Small travel agenecies in yemen.
 
 ## Contributing
 
